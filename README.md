@@ -19,7 +19,7 @@ rd_led = machine.Pin(18, Pin.OUT)
 status_led = rgb_led.RGBLED(rd_led, gn_led, bl_led, on_lvl="low")
 
 # Set the (approximate) colour of the LED
-# colour can be any one of blue, green, cyan, red, pink, yellow, white, off
+# Colour can be any one of blue, green, cyan, red, pink, yellow, white, off
 status_led.led_colour("colour")
 
 # Driving the pin with a PWM
